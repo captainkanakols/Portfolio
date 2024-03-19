@@ -1,0 +1,43 @@
+body::before{
+    content: '';
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 30px;
+    height: 500px;
+    width: 80%;
+    background-color: rgba(121, 114, 114, 0.566);
+    padding: 30px;
+    cursor: pointer;
+}
+
+.items{
+    height:100px;
+    width: 100px;
+    border: solid 1px black;
+    margin: 10px;
+}
+
+.r{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px; 
+}
+
+.items:hover{
+    background-color: antiquewhite;
+}
+
+@keyframes animate{
+    from{
+
+    }
+
+    to{
+
+
+    }
+}

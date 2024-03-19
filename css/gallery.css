@@ -1,0 +1,66 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.headings{    
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #076a16;
+
+}
+
+.profile-box{
+    background-color: white;
+}
+
+.profile{
+    border-radius: 100em;
+    border: solid #0e5645;
+}
+
+.icon{
+    height: 50px;
+}
+
+.personality{
+    width: 100%;
+}
+
+
+.gallery{
+    background: #0e5645;
+    padding: 10px;
+}
+
+.gallery img{
+    
+    margin-bottom: 10px;
+    border: solid 5px #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    aspect-ratio: .9;
+
+}
+
+.gallery-items{
+    border-radius: 15px;
+}
+
+.gallery-modal{
+    border-radius: 15px;
+}
+

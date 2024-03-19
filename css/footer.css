@@ -1,0 +1,51 @@
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-container{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.social-icon-container{
+    display: flex;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    justify-content: right;
+
+}
+
+.social-icon{
+    font-size: 25px;
+    border-radius: 20em;
+    color: black;
+}
+
+.socal-icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icon-container a:hover{
+    background-color: #0e5645;
+    transition: 0.5s;
+}
+
+.footer-bottom{
+    text-align: right;
+    
+}
+
+.footer-bottom li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 10px;
+}
+
+
+
+
+    

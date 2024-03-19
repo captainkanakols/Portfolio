@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+            <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+            <link rel="stylesheet" href="../css/footer.css">
+            <link rel="stylesheet" href="../css/dota2.css">
+            <title>Dota 2</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
+            <div class="container">
+              <a href="../index.html" class="navbar-brand bi-lightning">Arc</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/pages/project.html" class="nav-link">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/pages/dota2.html" class="nav-link">Dota 2</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid hero-box">
+          <div class="main">
+            <div class="search-box">
+              <form action="">
+                <span><i class="bi-search search-icon"></i></span>
+                <input id="hero-name-search" type="text" placeholder="Enter hero name" onkeyup="myFunction()">
+              </form>
+            </div>
+            <div class="row" id="category">
+              <div class="col-lg-6 ">
+                <div class="category-label">
+                  <span>STRENGTH 
+                    <img src="../images/dota2/category/str.png" alt="">
+                  </span>
+                </div>
+                <div class="category">
+                  <a href="#"><img class="" src="../images/dota2/strength/alchemist.png" alt=""><div class="hero-name-hide"><span class="hero-name">Alchemist</span></div></a>                  
+                  <a href="#"><img src="../images/dota2/strength/axe.png" alt=""><div class="hero-name-hide"><span>Axe</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/bristleback.png" alt=""><div class="hero-name-hide"><span>Bristleback</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/centaur.png" alt=""><div class="hero-name-hide"><span>Centaur</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/ck.png" alt=""><div class="hero-name-hide"><span>Chaos Knight</span></div></a> <!--- <span>Chaos<span style="visibility: hidden;">K</span>Knight</span> -->
+                  <a href="#"><img src="../images/dota2/strength/dawn.png" alt=""><div class="hero-name-hide"><span>Dawn Breaker</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/doom.png" alt=""><div class="hero-name-hide"><span>Doom</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/dk.png" alt=""><div class="hero-name-hide"><span>Dragon Knight</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/espirit.png" alt=""><div class="hero-name-hide"><span>Earth Spirit</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/eshaker.png" alt=""><div class="hero-name-hide"><span>Earth Shaker</span></div></a> 
+                  <a href="#"><img src="../images/dota2/strength/et.png" alt=""><div class="hero-name-hide"><span>Elder Titan</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/huskar.png" alt=""><div class="hero-name-hide"><span>Huskar</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/kunkka.png" alt=""><div class="hero-name-hide"><span>Kunkka</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/legion_commander.png" alt=""><div class="hero-name-hide"><span class="hero-name">Legion Commander</span></div></a> 
+                  <a href="#"><img src="../images/dota2/strength/life_stealer.png" alt=""><div class="hero-name-hide"><span>Life Stealer</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/mars.png" alt=""><div class="hero-name-hide"><span>Mars</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/night_stalker.png" alt=""><div class="hero-name-hide"><span>Night Stalker</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/ogre_magi.png" alt=""><div class="hero-name-hide"><span>Ogre Magi</span></div></a> 
+                  <a href="#"><img src="../images/dota2/strength/omniknight.png" alt=""><div class="hero-name-hide"><span>Omni Knight</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/primal_beast.png" alt=""><div class="hero-name-hide"><span>Primal Beast</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/pudge.png" alt=""><div class="hero-name-hide"><span>Pudge</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/slardar.png" alt=""><div class="hero-name-hide"><span>Slardar</span></div></a> 
+                  <a href="#"><img src="../images/dota2/strength/spirit_breaker.png" alt=""><div class="hero-name-hide"><span>Spirit Breaker</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/sven.png" alt=""><div class="hero-name-hide"><span>Sven</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/tidehunter.png" alt=""><div class="hero-name-hide"><span>Tide Hunter</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/tiny.png" alt=""><div class="hero-name-hide"><span>Tiny</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/treant.png" alt=""><div class="hero-name-hide"><span>Treant</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/tusk.png" alt=""><div class="hero-name-hide"><span>Tusk</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/underlord.png" alt=""><div class="hero-name-hide"><span>Underlord</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/undying.png" alt=""><div class="hero-name-hide"><span>Undying</span></div></a>
+                  <a href="#"><img src="../images/dota2/strength/wraith_king.png" alt=""><div class="hero-name-hide"><span>Wraith King</span></div></a>
+                  
+                </div>
+              </div>
+              <div class="col-lg-6 ">
+                <div class="category-label">
+                  <span>AGILITY 
+                    <img src="../images/dota2/category/agi.png" alt="">
+                  </span>
+                </div>
+                <div class="category" id="">
+                  <a href="#"><img src="../images/dota2/agility/antimage.png" alt=""><div class="hero-name-hide"><span>Antimage</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/arc_warden.png" alt="" ><div class="hero-name-hide"><span>Arc Warden</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/bloodseeker.png" alt="" ><div class="hero-name-hide"><span>Bloodseeker</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/bounty_hunter.png" alt="" ><div class="hero-name-hide"><span>Bounty Hunter</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/clinkz.png" alt="" ><div class="hero-name-hide"><span>Clinkz</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/drow_ranger.png" alt="" ><div class="hero-name-hide"><span>Drow Ranger</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/ember_spirit.png" alt="" ><div class="hero-name-hide"><span>Ember Spirit</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/faceless_void.png" alt="" ><div class="hero-name-hide"><span>Faceless Void</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/gyrocopter.png" alt="" ><div class="hero-name-hide"><span>Gyrocopter</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/hoodwink.png" alt="" ><div class="hero-name-hide"><span>Hoodwink</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/juggernaut.png" alt="" ><div class="hero-name-hide"><span>Juggernaut</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/luna.png" alt="" ><div class="hero-name-hide"><span>Luna</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/medusa.png" alt="" ><div class="hero-name-hide"><span>Medusa</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/meepo.png" alt="" ><div class="hero-name-hide"><span>Meepo</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/monkey_king.png" alt="" ><div class="hero-name-hide"><span>Monkey King</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/morphling.png" alt="" ><div class="hero-name-hide"><span>Morphling</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/naga_siren.png" alt="" ><div class="hero-name-hide"><span>Naga Siren</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/phantom_assassin.png" alt="" ><div class="hero-name-hide"><span>Phantom Assassin</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/phantom_lancer.png" alt="" ><div class="hero-name-hide"><span>Phantom Lancer</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/razor.png" alt="" ><div class="hero-name-hide"><span>Razor</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/riki.png" alt="" ><div class="hero-name-hide"><span>Riki</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/shadow_fiend.png" alt="" ><div class="hero-name-hide"><span>Shadow Fiend</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/slark.png" alt="" ><div class="hero-name-hide"><span>Slark</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/sniper.png" alt="" ><div class="hero-name-hide"><span>Sniper</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/spectre.png" alt="" ><div class="hero-name-hide"><span>Spectre</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/templar_assassin.png" alt="" ><div class="hero-name-hide"><span>Templar Assassin</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/terrorblade.png" alt="" ><div class="hero-name-hide"><span>Terrorblade</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/troll_warlord.png" alt="" ><div class="hero-name-hide"><span>Troll Warlord</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/ursa.png" alt="" ><div class="hero-name-hide"><span>Ursa</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/viper.png" alt="" ><div class="hero-name-hide"><span>Viper</span></div></a>
+                  <a href=""><img src="../images/dota2/agility/weaver.png" alt="" ><div class="hero-name-hide"><span>Weaver</span></div></a>
+                  
+                </div>
+              </div>
+
+              <div class="col-lg-6 ">
+                <div class="category-label">
+                  <span>INTELLIGENCE 
+                    <img src="../images/dota2/category/int.png" alt="">
+                  </span>
+                </div>
+                <div class="category" id="">
+                  <a href="#"><img src="../images/dota2/intelligence/ancient_apparition.png" alt=""><div class="hero-name-hide"><span>Ancient Apparition</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/crystal_maiden.png" alt=""><div class="hero-name-hide"><span>CrystalMaiden</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/death_prophet.png" alt=""><div class="hero-name-hide"><span>DeathProphet</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/disruptor.png" alt=""><div class="hero-name-hide"><span>Disruptor</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/enchantress.png" alt=""><div class="hero-name-hide"><span>Enchantress</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/grimstroke.png" alt=""><div class="hero-name-hide"><span>Grimstroke</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/jakiro.png" alt=""><div class="hero-name-hide"><span>Jakiro</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/keeper_of_the_light.png" alt=""><div class="hero-name-hide"><span>Keeper Of The Light</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/leshrac.png" alt=""><div class="hero-name-hide"><span>Leshrac</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/lich.png" alt=""><div class="hero-name-hide"><span>Lich</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/lina.png" alt=""><div class="hero-name-hide"><span>Lina</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/lion.png" alt=""><div class="hero-name-hide"><span>Lion</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/muerta.png" alt=""><div class="hero-name-hide"><span>Muerta</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/necrophos.png" alt=""><div class="hero-name-hide"><span>Necrophos</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/oracle.png" alt=""><div class="hero-name-hide"><span>Oracle</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/outworld_devourer.png" alt=""><div class="hero-name-hide"><span>Outworld Devourer</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/puck.png" alt=""><div class="hero-name-hide"><span>Puck</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/pugna.png" alt=""><div class="hero-name-hide"><span>Pugna</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/queenofpain.png" alt=""><div class="hero-name-hide"><span>Queen Of Pain</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/rubick.png" alt=""><div class="hero-name-hide"><span>Rubick</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/shadow_demon.png" alt=""><div class="hero-name-hide"><span>Shadow Demon</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/shadow_shaman.png" alt=""><div class="hero-name-hide"><span>Shadow Shaman</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/silencer.png" alt=""><div class="hero-name-hide"><span>Silencer</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/skywrath_mage.png" alt=""><div class="hero-name-hide"><span>Skywrath Mage</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/storm_spirit.png" alt=""><div class="hero-name-hide"><span>Storm Spirit</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/tinker.png" alt=""><div class="hero-name-hide"><span>Tinker</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/warlock.png" alt=""><div class="hero-name-hide"><span>Warlock</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/witch_doctor.png" alt=""><div class="hero-name-hide"><span>Witch Doctor</span></div></a>
+                  <a href="#"><img src="../images/dota2/intelligence/zues.png" alt=""><div class="hero-name-hide"><span></span>Zues</div></a>
+                  
+                </div>
+              </div>
+
+              <div class="col-lg-6 ">
+                <div class="category-label">
+                  <span>UNIVERSAL 
+                    <img src="../images/dota2/category/uni.png" alt="">
+                  </span>
+                </div>
+                <div class="category" id="">
+                  <a href=""><img src="../images/dota2/universal/abaddon.png" alt="" ><div class="hero-name-hide"><span>Abaddon</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/bane.png" alt="" ><div class="hero-name-hide"><span>Bane</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/batrider.png" alt="" ><div class="hero-name-hide"><span>Batrider</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/beastmaster.png" alt="" ><div class="hero-name-hide"><span>Beastmaster</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/brewmaster.png" alt="" ><div class="hero-name-hide"><span>Brewmaster</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/broodmother.png" alt="" ><div class="hero-name-hide"><span>Broodmother</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/chen.png" alt="" ><div class="hero-name-hide"><span>Chen</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/clockwerk.png" alt="" ><div class="hero-name-hide"><span>Clockwerk</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/dark_seer.png" alt="" ><div class="hero-name-hide"><span>Dark Seer</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/dark_willow.png" alt="" ><div class="hero-name-hide"><span>Dark Willow</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/dazzle.png" alt="" ><div class="hero-name-hide"><span>Dazzle</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/enigma.png" alt="" ><div class="hero-name-hide"><span>Enigma</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/invoker.png" alt="" ><div class="hero-name-hide"><span>Invoker</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/io.png" alt="" ><div class="hero-name-hide"><span>Io</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/lone_druid.png" alt="" ><div class="hero-name-hide"><span>Lone Druid</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/lycan.png" alt="" ><div class="hero-name-hide"><span>Lycan</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/magnus.png" alt="" ><div class="hero-name-hide"><span>Magnus</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/marci.png" alt="" ><div class="hero-name-hide"><span>Marci</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/mirana.png" alt="" ><div class="hero-name-hide"><span>Mirana</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/nyx_assassin.png" alt="" ><div class="hero-name-hide"><span>Nyx Assassin</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/pangolier.png" alt="" ><div class="hero-name-hide"><span>Pangolier</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/phoenix.png" alt="" ><div class="hero-name-hide"><span>Phoenix</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/sand_king.png" alt="" ><div class="hero-name-hide"><span>Sand King</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/snapfire.png" alt="" ><div class="hero-name-hide"><span>Snapfire</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/techies.png" alt="" ><div class="hero-name-hide"><span>Techies</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/timbersaw.png" alt="" ><div class="hero-name-hide"><span>Timbersaw</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/vengefulspirit.png" alt="" ><div class="hero-name-hide"><span>Vengeful Spirit</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/venomancer.png" alt="" ><div class="hero-name-hide"><span>Venomancer</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/visage.png" alt="" ><div class="hero-name-hide"><span>Visage</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/void_spirit.png" alt="" ><div class="hero-name-hide"><span>Void Spirit</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/windranger.png" alt="" ><div class="hero-name-hide"><span>Wind Ranger</span></div></a>
+                  <a href=""><img src="../images/dota2/universal/winter_wyvern.png" alt="" ><div class="hero-name-hide"><span>Winter Wyvern</span></div></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="footer-container">
+            <div class="container-fluid social-icon-container">
+              <a class="btn" href="#!" role="button"><i class="bi-facebook social-icon"></i></a>
+              <a class="btn" href="#!" role="button"><i class="bi-instagram social-icon"></i></a>
+              <a class="btn" href="#!" role="button"><i class="bi-google social-icon"></i></a>
+            </div>
+  
+            <div class="container-fluid footer-bottom">
+              <ul>
+                <li>Copyright &copy 2024</li>
+                <li>Terms & Conditions</li>
+                <li>Security and Privacy</li>
+              </ul>
+              <!-- <p class="footer-bottom">Copyright &copy 2024</p>
+              <p class="footer-bottom">Terms & Conditions</p>
+              <p class="footer-bottom">Security and Privacy</p> -->
+            </div>
+        </section>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="../js/dota2.js"></script>
+    
+</html>
