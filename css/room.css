@@ -1,0 +1,25 @@
+.room-main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.room-main img{
+    height: 100%;
+    width: 100%;
+}
+
+.room-intro{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.room-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

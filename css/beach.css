@@ -320,6 +320,45 @@ hr{
     }
 }
 
+@media only screen and (max-width: 2560px){
+    .event-text{
+        font-size: 1.8vw;
+    }
+    .event-paragraph{
+        font-size: .9vw;
+    }
+
+    .event-button{
+        font-size: .9vw;
+    }
+}
+
+@media only screen and (max-width: 2000px){
+    .event-text{
+        font-size: 2.3vw;
+    }
+    .event-paragraph{
+        font-size: 1.3vw;
+    }
+
+    .event-button{
+        font-size: 1.3vw;
+    }
+}
+
+@media only screen and (max-width: 1700px){
+    .event-text{
+        font-size: 2.5vw;
+    }
+    .event-paragraph{
+        font-size: 1.5vw;
+    }
+
+    .event-button{
+        font-size: 1.5vw;
+    }
+}
+
 @media only screen and (max-width: 1440px){
     .event-text{
         font-size: 2.5vw; 
@@ -336,6 +375,7 @@ hr{
 @media only screen and (max-width: 500px){
     .event-text{
         font-size: 2vw;
+
 
     }
     .event-paragraph{
@@ -358,6 +398,7 @@ hr{
 
     .event-button{
         font-size: 1.5vw;
+        
     }
 }
 
